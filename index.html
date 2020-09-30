@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+ <div>
+      <h1>TeslaFastPizza</h1>
+      <h2>The Best Fast Baked Pizza You've Ever Had!</h2>
+    </div>
+    
+    <div>
+    <h4>Pizza Size</h4>
+    <div>Small  Medium  Large</div>
+    <input id="size-input" type="range" value="Medium" min="Small" max="Large" step="50"></input>
+    </div>
+
+    <button onclick=>Thats The Size!</button>
+
+<div> 
+    <h4>Pizza Crust</h4>
+    <select id="Pizza-Crust">
+      <option value="Thick"> Thick</option>
+      <option value="Thin"> Thin</option>
+      <option value="Cheesey"> Cheesey</option>
+      <option value="Regular"> Regular</option>
+    </select>
+    </div>
+    <div>
+      <h4>Pizza Toppings</h4>
+      <input type ="checkbox" name="stickers" value="Mushrooms">Mushrooms </input><br>
+      <input type ="checkbox" name="stickers" value="Extra-Cheese">Extra Cheese </input><br>
+      <input type ="checkbox" name="stickers" value="Pepperoni">Pepperoni </input><br>
+      <input type ="checkbox" name="stickers" value="Chicken">Chicken</input><br>
+    </div>
+    
+    
+    
+    <button onclick="onSubmit()">Select Toppings!</button>
+
+    <div>
+      <h4>Zip Code
+        <input style="margin-bottom: 20px"id="zip" type = "text"></input>
+
+
+
+    <script src="script.js"></script>
